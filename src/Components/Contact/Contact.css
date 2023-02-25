@@ -1,0 +1,143 @@
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-top: 60px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.contact-coffee {
+  font-size: 2.5vw;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+}
+.contact-info-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-info-left-box,
+.contact-info-right-box {
+  display: flex;
+  width: 20vw;
+  min-width: fit-content;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 1vw;
+  text-align: center;
+  background-color: var(--first-color);
+  color: white;
+  justify-content: center;
+}
+.contact-info-left-links,
+.contact-info-right-links {
+  margin-block: 20px;
+}
+.contact-info-link-image {
+  width: 35px;
+  height: 35px;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.contact-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 25px;
+  width: 100vw;
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 60px;
+}
+.contact-bottom-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-input-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-input-mail,
+.contact-input-number {
+  width: 300px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contact-input-message {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contact-bottom-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact-bottom-submit {
+  border: none;
+  width: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  background-color: var(--first-color);
+  color: white;
+}
+
+@media screen and (max-width: 931px) {
+}
+
+@media screen and (max-width: 631px) {
+  .contact-coffee {
+    font-size: 22px;
+    margin-block: 20px;
+  }
+  .contact-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-info-left,
+  .contact-info-right {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info-left-links,
+  .contact-info-right-links {
+    margin-block: 5px;
+  }
+  .contact-info-left-box,
+  .contact-info-right-box {
+    width: 80vw;
+    padding: 8px;
+  }
+
+  .contact-bottom {
+    padding-bottom: 80px;
+  }
+  .contact-bottom-top {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,127 @@
+.project-main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--partial-black); */
+}
+.project-header {
+  font-size: 2.8vw;
+}
+.project-sh {
+  font-size: 1.2vw;
+}
+.project-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySwiper {
+  display: flex;
+  height: 400px;
+  width: 900px;
+  z-index: -1;
+}
+.swiper-main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.swiper-img {
+  height: 80%;
+  width: 80%;
+  border-radius: 15px;
+}
+.swiper-info {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding-inline: 20px;
+}
+.swiper-head {
+  font-size: 1.2vw;
+  margin-block: 10px;
+}
+.swiper-desc {
+  font-size: 0.8vw;
+  margin-block: 10px;
+}
+.swiper-demo {
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: var(--first-color);
+  color: #fefefe;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 931px) {
+  .project-main {
+    max-height: 800px;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .project-main {
+    max-height: 100vh;
+  }
+  .project-header {
+    font-size: 8vw;
+  }
+  .project-sh {
+    font-size: 4vw;
+  }
+  .project-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mySwiper {
+    display: flex;
+    height: 450px;
+    width: 100vw;
+  }
+  .swiper-main {
+    width: 100%;
+    flex-direction: column;
+  }
+  .swiper-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .swiper-img {
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+  }
+  .swiper-info {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 0px;
+  }
+  .swiper-head {
+    font-size: 8vw;
+    margin-block: 10px;
+  }
+  .swiper-desc {
+    font-size: 4vw;
+    margin-block: 10px;
+  }
+}

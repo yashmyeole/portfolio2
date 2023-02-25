@@ -1,0 +1,11 @@
+hr.rounded {
+  display: none;
+}
+@media screen and (max-width: 631px) {
+  hr.rounded {
+    display: flex;
+    margin: 0 auto;
+    border-top: 3px solid #eeeeee;
+    width: 40vw;
+  }
+}
