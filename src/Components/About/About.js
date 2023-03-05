@@ -5,7 +5,7 @@ function About() {
   return (
     <div
       id="about"
-      className="about-main"
+      className="about-main reveal"
     >
       <div className="about-header">About Me</div>
       <div className="about-sh">My Intro</div>
@@ -25,6 +25,7 @@ function About() {
           <a
             href={require("../../assets/Resume.pdf")}
             download="Resume.pdf"
+            style={{ cursor: "pointer" }}
           >
             <button className="about-cv">Download CV</button>
           </a>

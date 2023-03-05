@@ -14,10 +14,15 @@
 }
 .header-logo {
   font-size: 1.5vw;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
 }
 .header-a {
   font-size: 1vw;
   margin-inline: 15px;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: calc(0.4s * var(--i));
 }
 .header-a:hover {
 }
@@ -62,5 +67,26 @@
   .header-mobile-bottom-menu {
     display: flex;
     position: fixed;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+}
+@keyframes slideTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 100;
+    transform: translateY(0px);
   }
 }

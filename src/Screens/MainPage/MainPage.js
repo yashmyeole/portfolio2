@@ -7,6 +7,23 @@ import Project from "../../Components/Projects/Project";
 import Skills from "../../Components/Skills/Skills";
 import "./MainPage.css";
 function MainPage() {
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", reveal);
   return (
     <div>
       <div className="main-header">
@@ -17,15 +34,15 @@ function MainPage() {
           <Home />
         </div>
         <hr class="rounded"></hr>
-        <div className="main-about">
+        <div className="main-about reveal fade-top">
           <About />
         </div>
         <hr class="rounded"></hr>
-        <div className="main-skills">
+        <div className="main-skills reveal fade-right">
           <Skills />
         </div>
         <hr class="rounded"></hr>
-        <div className="main-project">
+        <div className="main-project reveal fade-left">
           <Project />
         </div>
         <hr class="rounded"></hr>

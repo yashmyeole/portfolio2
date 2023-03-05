@@ -75,12 +75,14 @@ function Header() {
       <div className="header-logo">Yash Yeole</div>
       <div className="header-sections">
         <a
+          // style="--i:1;"
           href="#home"
           className="header-a"
         >
           Home
         </a>
         <a
+          // style="--i:2;"
           href="#about"
           className="header-a"
         >
