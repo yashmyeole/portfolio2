@@ -1,6 +1,8 @@
 import React from "react";
 import "./Project.css";
 import Project1 from "../../img/portfolio1.jpg";
+import Cloth from "../../assets/clothproject.png";
+import MERN from "../../assets/MERN.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -35,7 +37,7 @@ function Project() {
                 <img
                   className="swiper-img"
                   alt=""
-                  src={Project1}
+                  src={Cloth}
                 />
               </div>
               <div className="swiper-info">
@@ -58,7 +60,7 @@ function Project() {
                 <img
                   className="swiper-img"
                   alt=""
-                  src={Project1}
+                  src={MERN}
                 />
               </div>
               <div className="swiper-info">
