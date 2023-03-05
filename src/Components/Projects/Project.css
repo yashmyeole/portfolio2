@@ -58,6 +58,7 @@
   margin-block: 10px;
 }
 .swiper-demo {
+  cursor: pointer;
   width: 100px;
   outline: none;
   border: none;
@@ -67,7 +68,9 @@
   padding: 15px;
   margin-top: 10px;
 }
-
+.swiper-button-next {
+  color: aqua;
+}
 @media screen and (max-width: 931px) {
   .project-main {
     max-height: 800px;

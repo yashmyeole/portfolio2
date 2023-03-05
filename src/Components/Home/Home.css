@@ -31,9 +31,11 @@
 .home-right-desc {
   font-size: 1.1vw;
   margin-block: 10px;
-  width: 350px;
+  width: 550px;
   opacity: 0;
   animation: slideTop 1s ease forwards;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .home-right-contact {
   width: 130px;
@@ -56,7 +58,8 @@
   background-color: var(--first-color-lighter);
   border-top-right-radius: 95px;
   opacity: 0;
-  animation: zoomIn 1s ease forwards, upDown 4s ease-in-out infinite;
+  animation: zoomIn 2s ease forwards, upDown 4s ease-in-out infinite;
+  animation-delay: 0.1s, 3s;
 }
 
 @media screen and (max-width: 931px) {

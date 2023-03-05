@@ -15,7 +15,9 @@ function Home() {
           <h2 className="home-right-head">Hi, I'am Yash</h2>
           <div className="home-right-role">Frontend Developer</div>
           <div className="home-right-desc">
-            High level yhyh sdfsd sdgv dsfvb dfgvbd dfbdfbdfbf dfbdfbdfbfb dfb dfbdf bdfb dfbdfb.
+            Self-motivated with few months of industrial experience in Frontend Development. Good
+            communication, written, interpersonal skills, proven team player with an analytical mind
+            bent to problem solving and delivering solutions.
           </div>
 
           <a href="#contact">

@@ -24,7 +24,8 @@
 }
 .about-img img {
   width: 380px;
-  height: 380px;
+  height: 440px;
+  background-color: var(--first-color-lighter);
   border-top-right-radius: 100px;
 }
 .about-data {

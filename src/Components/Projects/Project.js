@@ -39,11 +39,16 @@ function Project() {
                 />
               </div>
               <div className="swiper-info">
-                <div className="swiper-head">Online Store</div>
+                <div className="swiper-head">Cloth Store</div>
                 <div className="swiper-desc">
-                  Website components animation and lot more thinfgas
+                  Responsive Clothing Landing Page Using HTML CSS & JavaScript
                 </div>
-                <button className="swiper-demo">Demo </button>
+                <a
+                  target="__blank"
+                  href="https://shop-html-yashmyeole.vercel.app/"
+                >
+                  <button className="swiper-demo">Demo</button>
+                </a>
               </div>
             </div>
           </SwiperSlide>
@@ -57,11 +62,29 @@ function Project() {
                 />
               </div>
               <div className="swiper-info">
-                <div className="swiper-head">Online Store</div>
+                <div className="swiper-head">E-Commerce MERN</div>
                 <div className="swiper-desc">
-                  Website components animation and lot more thinfgas
+                  Full Stack E-commerce clone build using React, Node, MongoDb
                 </div>
-                <button className="swiper-demo">Demo </button>
+                <button className="swiper-demo">Demo</button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiper-main">
+              <div className="swiper-image">
+                <img
+                  className="swiper-img"
+                  alt=""
+                  src={Project1}
+                />
+              </div>
+              <div className="swiper-info">
+                <div className="swiper-head">Covid-19 Tracker</div>
+                <div className="swiper-desc">
+                  Fetched and displayed covid-19 cases around the globe.
+                </div>
+                <button className="swiper-demo">Demo</button>
               </div>
             </div>
           </SwiperSlide>
